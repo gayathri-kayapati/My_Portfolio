@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Component library</title>
+    <!-- CSS way 1:style tag -->
+    <!-- <style>
+      body {
+        color: brown;
+      }
+    </style> -->
+    <!-- CSS way 3:using external link like below line.-->
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 id="lib_header">Gayathri's component library</h1>
+    <!-- CSS way 2:using style atribute in any element -> style="color: darkorchid" -->
+    <p>
+      I am attending neog.camp and is currently completing levelzero one weekend
+      and assignment at a time. I am creating this component library.
+    </p>
+    <p>
+      I am going to use the components in my portfolio, blog and all projects
+      created. This will ensure that all my projects have consistent themeing
+      and styling.
+    </p>
+    <hr />
+    <h2>@typography</h2>
+    <h1>This is biggest heading</h1>
+    <h2>This is second biggest heading</h2>
+    <p>
+      Let me show you the normal text. This is free flowing and will wrap at the
+      end like a paragraph.
+    </p>
+    <p>This paragraph will have a <strong>bold </strong>text.</p>
+    <small>This is relatively smaller text.</small>
+    <hr />
+    <h2>@container</h2>
+    <h3>fluid container</h3>
+    <div class="container">
+      This is fluid container and it will go till the end of the page.
+    </div>
+    <h3>center container</h3>
+    <div class="container container-center">
+      This is center container and it will go till a given width and center
+      content.
+    </div>
+    <hr />
+    <h2>@links</h2>
+    <a class="link link-primary" href="/">primary link</a>
+    <a class="link link-secondary" href="/">secondary link</a>
+    <hr />
+    <h2>@lists</h2>
+    <h3>unordered list</h3>
+    <p>This will not have the bullet.</p>
+    <ul class="list-non-bullet">
+      <li class="list-item-inline">Item One</li>
+      <li class="list-item-inline">Item Two</li>
+      <li class="list-item-inline">Item Three</li>
+    </ul>
+    <h3>unordered inline list</h3>
+    <ul class="list-non-bullet">
+      <li>Inline Item One</li>
+      <li>Inline Item Two</li>
+      <li>Inline Item Three</li>
+    </ul>
+    <h3>reverse ordered list</h3>
+    <ol reversed>
+      <li>JavaScript</li>
+      <li>CSS3</li>
+      <li>HTML5</li>
+    </ol>
+    <hr />
+    <h2>@nav</h2>
+    <nav class="navigation">
+      <div class="nav-brand">I AM BRAND</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">Home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/products.html">Products</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/about.html">About</a>
+        </li>
+      </ul>
+    </nav>
+    <hr />
+    <h2>@header</h2>
+    <header class="hero">
+      <img class="hero-img" src="images/hero_image.svg" />
+      <h1 class="hero-heading">
+        heading inside <span class="heading-inverted">hero</span>
+      </h1>
+    </header>
+    <hr />
+    <h2>@section</h2>
+    <section class="section">
+      <!-- In sections we use h1 -->
+      <div class="container container-center">
+        <h1>white section</h1>
+        <p>This will have white background.</p>
+      </div>
+    </section>
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>Off white section</h1>
+        <p>This will have gray background.</p>
+      </div>
+    </section>
+    <hr />
+    <h2>@footer</h2>
+    <footer class="footer">
+      <div class="footer-heading">some small heading inside footer</div>
+      <ul class="list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="/">social one</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/">social two</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/">social three</a>
+        </li>
+      </ul>
+    </footer>
+    <!-- <div style="height: 20vh;"> -->
+  </body>
+</html>

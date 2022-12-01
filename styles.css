@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
+:root {
+  --primary-color: #f9a826;
+  --light-blue: #12b5e7;
+  --off-white: #f1f5f9;
+  --link-color: rgb(78, 7, 145);
+}
+
+body {
+  font-family: "Merriweather", serif;
+}
+hr {
+  margin: 2rem 0rem;
+}
+.container {
+  padding: 0rem 1rem;
+}
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+.link-primary {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: var(--link-color);
+}
+.link-secondary {
+  color: var(--primary-color);
+  background-color: white;
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+}
+/* lists */
+.list-non-bullet {
+  list-style: none;
+}
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+/* navigation */
+.navigation {
+  background-color: var(--primary-color);
+  border-bottom-left-radius: 1rem;
+  padding: 1rem;
+}
+.navigation.nav-brand {
+  font-weight: bold;
+  font-size: 0.1rem;
+}
+.navigation .nav-pills {
+  text-align: right;
+}
+.navigation .link {
+  color: var(--link-color);
+}
+.navigation .link-active {
+  font-weight: bold;
+}
+/* header */
+.hero {
+  padding: 1rem;
+}
+.hero .hero-img {
+  max-width: 360px;
+  display: block;
+  margin: auto;
+}
+.hero .hero-heading {
+  padding-top: 1rem;
+  text-align: center;
+}
+.hero .hero-heading .heading-inverted {
+  color: var(--light-blue);
+}
+/* section */
+.section {
+  padding: 2rem;
+}
+.section h1 {
+  text-align: center;
+}
+.ow {
+  background-color: var(--off-white);
+}
+/* footer */
+.footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: var(--primary-color);
+  border-top-right-radius: 1rem;
+}
+.footer .footer-heading {
+  color: rgb(104, 102, 102);
+  font-weight: bold;
+  font-size: large;
+}
+.footer .link {
+  color: var(--link-color);
+}
+.footer ul {
+  padding-inline-start: 0px;
+}
