@@ -19,20 +19,30 @@ hr {
   max-width: 600px;
   margin: auto;
 }
+.text-center {
+  display: block;
+  text-align: center;
+}
 .link {
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
 .link-primary {
   background-color: var(--primary-color);
-  border-radius: 0.5rem;
+  border-radius: 2rem;
   color: var(--link-color);
+  max-width: 140px;
+  padding: 0.6rem 1.2rem;
+  margin: 1rem auto;
 }
 .link-secondary {
   color: var(--primary-color);
   background-color: var(--off-white);
-  border-radius: 0.5rem;
+  border-radius: 2rem;
   border: 1px solid var(--primary-color);
+  margin: 1rem;
+  padding: 0.6rem 1.2rem;
+  max-width: 140px;
 }
 /* lists */
 .list-non-bullet {
@@ -64,6 +74,7 @@ hr {
 /* header */
 .hero {
   padding: 1rem;
+  padding-top: 5rem;
 }
 .hero .hero-img {
   max-width: 360px;
