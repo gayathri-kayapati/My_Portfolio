@@ -8,6 +8,8 @@
 
 body {
   font-family: "Merriweather", serif;
+  max-width: 1600px;
+  margin: auto;
 }
 hr {
   margin: 2rem 0rem;
@@ -18,10 +20,6 @@ hr {
 .container-center {
   max-width: 600px;
   margin: auto;
-}
-.text-center {
-  display: block;
-  text-align: center;
 }
 .link {
   text-decoration: none;
@@ -91,6 +89,9 @@ hr {
 /* section */
 .section {
   padding: 2rem;
+  margin: 2rem 0rem;
+  border-radius: 1rem;
+  text-align: center;
 }
 .section h1 {
   text-align: center;
