@@ -8,7 +8,6 @@
 
 body {
   font-family: "Merriweather", serif;
-  max-width: 1600px;
   margin: auto;
 }
 hr {
@@ -18,7 +17,7 @@ hr {
   padding: 0rem 1rem;
 }
 .container-center {
-  max-width: 600px;
+  max-width: 900px;
   margin: auto;
 }
 .link {
@@ -98,6 +97,9 @@ hr {
 }
 .ow {
   background-color: var(--off-white);
+}
+.showcase-blog {
+  padding-bottom: 6rem;
 }
 /* footer */
 .footer {
