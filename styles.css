@@ -120,7 +120,7 @@ hr {
 .copy-right {
   font-size: x-large;
 }
-.footer > p {
+.footer div p {
   display: flex;
   align-items: center;
   justify-content: center;
