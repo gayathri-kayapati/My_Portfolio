@@ -105,7 +105,7 @@ hr {
 /* footer */
 .footer {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   background-color: var(--primary-color);
   border-top-right-radius: 1rem;
 }
@@ -113,9 +113,15 @@ hr {
   font-weight: bold;
   font-size: large;
 }
-.footer .link {
-  color: var(--link-color);
+.icon {
+  width: 1.5rem;
+  padding: 1rem 0.4rem 0.2rem;
 }
-.footer ul {
-  padding-inline-start: 0px;
+.copy-right {
+  font-size: x-large;
+}
+.footer > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
